@@ -1,4 +1,4 @@
-// ide deklaráljátok a függvényeket.
+// Függvény deklaráció
 var userDatas = [];
 var spaceImage = document.createElement('img');
 spaceImage.className = 'space-image';
