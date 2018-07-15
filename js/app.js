@@ -234,10 +234,10 @@ function longest(data) {
 
 function searchforShipByModel(data, searchText) {
   var x = 'Nincs találat! ';
-  //var searchmodel = searchText;
-  for (var i = 0; i < data.length; i++) {
-    if (data[i].model == searchText) {
-      x = data[i];
+  var tomb = document.querySelector('.spaceship-list').children;
+  for (var i = 0; i < tomb.length; i++) {
+    if (tomb[i].model == searchText) {
+      x = tomb[i];
     }
   }
   return x;
